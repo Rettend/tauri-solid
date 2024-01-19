@@ -1,6 +1,10 @@
 {
   "recommendations": [
+    "rust-lang.rust-analyzer",
+    "dbaeumer.vscode-eslint",
+    "antfu.iconify",
+    "YoavBls.pretty-ts-errors",
     "tauri-apps.tauri-vscode",
-    "rust-lang.rust-analyzer"
+    "antfu.unocss"
   ]
 }
