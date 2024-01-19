@@ -1,4 +1,0 @@
-# TODO
-
-- [ ] antfu/eslint
-- [ ] unocss

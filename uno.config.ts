@@ -1,4 +1,4 @@
-import { defineConfig, presetUno, presetIcons, presetWebFonts, presetAttributify, transformerVariantGroup } from 'unocss'
+import { defineConfig, presetAttributify, presetIcons, presetUno, presetWebFonts, transformerVariantGroup } from 'unocss'
 import transformerAttributifyJsx from '@unocss/transformer-attributify-jsx'
 
 export default defineConfig({

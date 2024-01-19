@@ -2,7 +2,7 @@
 name = "tauri-solid"
 version = "0.0.0"
 description = "A Tauri App"
-authors = ["you"]
+authors = [ "you" ]
 license = ""
 repository = ""
 edition = "2021"
@@ -11,7 +11,11 @@ edition = "2021"
 
 [lib]
 name = "tauri_solid_lib"
-crate-type = ["staticlib", "cdylib", "rlib"]
+crate-type = [
+  "staticlib",
+  "cdylib",
+  "rlib"
+]
 
 [build-dependencies]
 tauri-build = { version = "2.0.0-alpha", features = [] }
@@ -24,4 +28,4 @@ serde_json = "1.0"
 [features]
 # this feature is used for production builds or when `devPath` points to the filesystem
 # DO NOT REMOVE!!
-custom-protocol = ["tauri/custom-protocol"]
+custom-protocol = [ "tauri/custom-protocol" ]
